@@ -99,7 +99,7 @@ shinyApp(
       
       
       if(input$disp == "head") {
-        return(head(df))
+        return(head(df, n = 4L))
       }
       else {
         return(df)
