@@ -10,4 +10,4 @@ install.packages("shinyalert")
 runApp("app")
 ################################################################################
 ######################## Run the application from Github #######################
-runGitHub("agreste_shinyApp", "killian31")
+runGitHub("killian31/agreste_shinyApp")
